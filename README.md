@@ -1,5 +1,3 @@
-# wdp-f17-koiya11
-
 Date:09/08</br>
 Project Title: Project 1: Headings,Paragraphs, and Lists
 
