@@ -8,4 +8,4 @@ Date: 09/15</br>
 Project Title: Project3: Images</br>
 
 Date: 09/15</br>
-Project Title: Project3: Photo Gallery</br>
+Project Title: Project4: Photo Gallery</br>
