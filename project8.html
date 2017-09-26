@@ -1,73 +1,98 @@
 <!DOCTYPE html>
 <html>
- 
+
 <head>
-<title>My First Web Page</title>
- <style type="text/css">
-  #main-headline
-  {        
-    text-align: center;
-    color: blue;
-  }
-  .place-description 
-  {         
-   font-family: Verdana;         
-   color: olive; 
-  }
-  .person-description
-  {
-   color: purple;
-  }
-  .important-point
-  {
-   text-decoration: underline;
-  }
-  .emphasis
-  {
-   font-style: italic;
-  }
- </style>
+  <title>My Favorite Songs</title>
+  <style>
+    td{text-align:center;}
+    </style>
 </head>
- 
+
 <body>
-<h1 id="main-headline" class="emphasis" >Hello World!</h1> 
-  <hr/>
- 
-<h2>A place I would like to visit</h2>
-  <p class="place-description">I would like to visit Japan. It is a country which has lots of animations fans. And I love sushi and other Japanese food. </p>
-  <p> <a href="http://www.anime-japan.jp/" target="_blank"> AnimeJapan</a></p>
- <!--You will go to a website about a animation show in Japan-->
- <img src="images/timg.jpg" width="400" height="300" alt="Akihabara in Tokyo"/><br/>
- 
-<h2>A person I admire<br/>(past or present)</h2>
-  <p class="person-description">The person who I admire is Mizuki Nana. She is a Japanese voice actress and singer.<br/>
-   When I was in primary school, I watched lot of the animation which she is the main voice actress. Also I love her songs so much, <span class=important-point>her voice is so powerful.</span></p>
-  <p> <a href="https://en.wikipedia.org/wiki/Nana_Mizuki" target="_blank"> Wikipedia of Nana Mizuki</a></p>
-   <!-- I have two links here -->
- <img src="images/10047927793b3d177a.jpg" width="300" height="400" alt="Mizuki Nana"/>
- 
-<h2>Favorite fruits</h2>
-  <ul>
-    <li>Strawberry</li>
-    <li>Banana</li>
-    <li class="emphasis">Blueberry</li>
-    <li>Berry</li>
-    <li>Apple</li>
-  </ul>
- 
-<h2>Favorite presidents</h2>
-  <ol>
-    <li>George Washington</li>
-    <li>Abraham Lincoln</li>
-    <li>Thomas Jefferson</li>
-    <li>James Madison</li>
-    <li>Richard Milhous Nixon</li>
-  </ol>
- 
- <h2>My Favorite Animal</h2>
- <p>Dog
-  <a href="project3.html"> Click here to see more details</a></p>
- 
+
+<h1>My Favorite Songs</h1><br/>
+  <h2>Top Ten</h2><br/>
+  <table border="1">
+   <tr>
+    <th colspan="2">Name</th>
+    <th>Artist</th>
+    <th>Rating</th>
+   </tr>
+   <tr>
+     <th rowspan="2">EDM</th>
+     <td>Danger</td>
+     <td>Taemin</td>
+     <td>07</td>
+   </tr>
+   <tr>
+    <td>Burn it up!</td>
+    <td>Wanna One</td>
+    <td>02</td>
+   </tr>
+   <tr>
+     <td>energetic</td>
+     <td>Wanna One</td>
+     <td>K-POP</td>
+     <td>03</td>
+   </tr>
+       <tr>
+     <td>나야나(pick me)</td>
+     <td>Wanna One</td>
+     <td>K-POP</td>
+     <td>04</td>
+   </tr>
+       <tr>
+     <td>老大</td>
+     <td>Bridge</td>
+     <td>Rap</td>
+     <td>05</td>
+   </tr>
+       <tr>
+     <td>Re:make</td>
+     <td>One of Rock</td>
+     <td>Rock</td>
+     <td>06</td>
+   </tr>
+       <tr>
+     <td>Danger</td>
+     <td>Taemin</td>
+     <td>EDM</td>
+     <td>07</td>
+   </tr>
+   <tr>
+     <td>Blood Sweat Tears</td>
+     <td>BTS</td>
+     <td>K-POP</td>
+     <td>08</td>
+   </tr>
+   <tr>
+     <td>Fire</td>
+     <td>BTS</td>
+     <td>K-POP</td>
+     <td>09</td>
+   </tr>
+   <tr>
+     <td>Tell me what to do</td>
+     <td>SHinee</td>
+     <td>K-POP</td>
+     <td>10</td>
+   </tr>
+  </table>
+<br/>
+    <h2> Recently Played</h2> 
+  <table>
+    <tr>
+      <td>나야나(pick me)</td>
+      <td>Burn it up</td>
+    </tr>  
+    <tr>
+      <td>energetic</td>
+      <td>DNA</td>
+   </tr>
+   <tr>
+      <td>Never</td>
+      <td>梦回还</td>
+   </tr>
+  </table>
 </body>
 </html> 
-
