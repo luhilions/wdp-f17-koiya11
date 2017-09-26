@@ -3,21 +3,35 @@
  
 <head>
 <title>My First Web Page</title>
+ <style type="text/css">
+  #main-headline {        
+                 text-align: center;
+                 color: blue;     }
+  .place-description {         
+   font-family: Verdana;         
+   color: olive; }
+  .person-description{
+   color: purple;}
+  .important-point{
+   text-decoration: underline;}
+  .emphasis{
+   font sytle: italic;}
+ </style>
 </head>
  
 <body>
-<h1>Hello World!</h1>
+<h1 id="main-headline" class="emphasis" >Hello World!</h1> 
   <hr/>
  
 <h2>A place I would like to visit</h2>
-  <p>I would like to visit Japan. It is a country which has lots of animations fans. And I love sushi and other Japanese food. </p>
+  <p class="place-description">I would like to visit Japan. It is a country which has lots of animations fans. And I love sushi and other Japanese food. </p>
   <p> <a href="http://www.anime-japan.jp/" target="_blank"> AnimeJapan</a></p>
  <!--You will go to a website about a animation show in Japan-->
  <img src="images/timg.jpg" width="400" height="300" alt="Akihabara in Tokyo"/>
  
-<h2>A person I admire<br/>(past or present)</h2>
-  <p>The person who I admire is Mizuki Nana. She is a Japanese voice actress and singer.<br/>
-   When I was in primary school, I watched lot of the animation which she is the main voice actress. Also I love her songs so much, her voice is so powerful.</p>
+<h>A person I admire<br/>(past or present)</h2>
+  <p class="person-description">The person who I admire is Mizuki Nana. She is a Japanese voice actress and singer.<br/>
+   When I was in primary school, I watched lot of the animation which she is the main voice actress. Also I love her songs so much, <span class=important-point>her voice is so powerful.</span></p>
   <p> <a href="https://en.wikipedia.org/wiki/Nana_Mizuki" target="_blank"> Wikipedia of Nana Mizuki</a></p>
    <!-- I have two links here -->
  <img src="images/10047927793b3d177a.jpg" width="300" height="400" alt="Mizuki Nana"/>
@@ -26,7 +40,7 @@
   <ul>
     <li>Strawberry</li>
     <li>Banana</li>
-    <li>Blueberry</li>
+    <li class="emphasis">Blueberry</li>
     <li>Berry</li>
     <li>Apple</li>
   </ul>
