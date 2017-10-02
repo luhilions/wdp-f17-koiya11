@@ -2,31 +2,64 @@
 <html>
 <head>
 <title>CSS Table Styling</title>
+ <style type="text/css">
+  .collapse{
+   border:650px collapse; 
+   font-size: medium;
+   font-family: Verdana;
+   font-weight: None;
+   padding: 5px;
+   text-align: center;
+  }
+  th { 
+   border:2px solid black;
+   background-color: yellow;
+  } 
+  td { 
+   border:2px dashed blue;
+  }
+  table{
+   
+  }
+  .col1 { 
+   width: 30%; 
+  } 
+  .ht{
+   color:red
+  }
+  .lt{
+   color:blue
+  }
+  .name{
+   color:black
+  }
+ </style>
 </head>
 <body>
-<table>
+<table class="collapse">
+ <caption>Five Days Forecast</caption>
  <tr>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
+    <th class="col1">Monday</th>
+    <th class="col1">Tuesday</th>
+    <th class="col1">Wednesday</th>
+    <th class="col1">Thursday</th>
+    <th class="col1">Friday</th>
  </tr>
- <tr>
+ <tr class="ht">
     <td>68</td>
     <td>68</td>
     <td>70</td>
     <td>73</td>
     <td>62</td>
  </tr>
-  <tr>
+  <tr class="lt">
     <td>53</td>
     <td>56</td>
     <td>52</td>
     <td>58</td>
     <td>50</td>
  </tr>
- <tr>
+ <tr class="name">
     <td>Partly Cloudy</td>
     <td>Windy</td>
     <td>Clear</td>
@@ -34,13 +67,17 @@
     <td>Snow</td>
  </tr>
  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><img scr="images/PARTLYCLOUDY.jpg" alt="partlycloudy"/>
+  </td>
+    <td><img scr="images/WINDY.jpg" alt="windy"/>
+  </td>
+    <td><img scr="images/CLEAR.jpg" alt="clear"/>
+  </td>
+    <td><img scr="images/CLEAR.jpg" alt="clear"/>
+  </td>
+    <td><img scr="images/SNOW.jpg" alt="snow"/>
+  </td>
  </tr>
-
 </table>
 
 </body>
