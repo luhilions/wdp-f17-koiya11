@@ -21,3 +21,12 @@ Project Title: Project7: CSS Classes <br/>
 
 Date:09/28<br/>
 Project Title: Project8: Advanced Tables <br/>
+
+Date:10/10<br/>
+Project Title: Project9: CSS Table Styling<br/>
+
+Date:10/10<br/>
+Project Title: Project10: CSS Box Model<br/>
+
+Date:10/10<br/>
+Project Title: Project11: Nesting and Floating<br/>
