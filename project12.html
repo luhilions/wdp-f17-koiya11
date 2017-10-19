@@ -39,7 +39,7 @@
  body {
   background-image: url('images/texture.jpg');   
   background-color: gray; 
- }   
+ }    
  a:link { 
   color: blue; 
  } 
@@ -47,11 +47,14 @@
   color: green; 
  }     
  a:hover { 
-  color: red; 
- }        
- a:active {
   color: orange; 
+  text-decoration: none; 
+ }  
+ /*The underline will display when hovering */ 
+ a:active {
+  color: red; 
  } 
+ 
 </style>
 </head>
 <body>
@@ -59,8 +62,8 @@
  </div>
 <div class="nav floatleft">Nav Menu<br/>
 <p> <a href="project4.html">Photo Gallery</a></p>
-<p> <a href="project7.html">Hello World</a></p><br/>
-<p> <a href="project9.html">Weather Forecast</a></p><br/>
+<p> <a href="project7.html">Hello World</a></p>
+<p> <a href="project9.html">Weather Forecast</a></p>
 <p> <a href="project10.html">A Breed Of Dog</a></p>
 </div>
 <div class="sidebar floatright">Sidebar
