@@ -30,3 +30,9 @@ Project Title: Project10: CSS Box Model<br/>
 
 Date:10/10<br/>
 Project Title: Project11: Nesting and Floating<br/>
+
+Date:10/24<br/>
+Project Title: Project12: More CSS
+
+Date:10/24<br/>
+Project Title: Project13: Special Characters
