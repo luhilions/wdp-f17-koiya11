@@ -1,3 +1,4 @@
+
 Date:09/08</br>
 Project Title: Project 1: Headings,Paragraphs, and Lists</br>
 
@@ -36,3 +37,12 @@ Project Title: Project12: More CSS
 
 Date:10/24<br/>
 Project Title: Project13: Special Characters
+
+Date:10/31<br/>
+Project Title: Project14: Web Colors
+
+Date:10/31<br/>
+Project Title: Project15: Fonts
+
+Date:10/31<br/>
+Project Title: Project16: Validation
