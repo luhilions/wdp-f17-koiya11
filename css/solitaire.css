@@ -44,7 +44,7 @@ z-index: 5;
 }  
 
 .gradient { 
-  background-image: url('../img/gradient.jpg');  
+  background-image: url('../images/gradient.jpg');  
   background-repeat: repeat-x;  
   background-color: gray; 
 } 
