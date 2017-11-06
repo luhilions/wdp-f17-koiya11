@@ -33,7 +33,7 @@
  clear: both;
  }
  body {
-  background-image: url('images/texture.jpg');   
+  background-image: url('../images/texture.jpg');   
   background-color: gray; 
  }    
 a:link {
