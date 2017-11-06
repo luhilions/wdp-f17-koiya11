@@ -1,3 +1,4 @@
+
 .felt {   
 width: 300px;   
 height: 300px; 
@@ -14,3 +15,37 @@ top: 40px;
 left: 110px;   
 z-index: 1; 
 }  
+
+.jc {  
+position: absolute;   
+top: 40px;  
+left: 110px;   
+z-index: 4; 
+} 
+
+.ks {  
+position: absolute;   
+top: 40px;  
+left: 110px;   
+z-index: 2; 
+}  
+
+.qh {  
+position: absolute;   
+top: 40px;  
+left: 110px;   
+z-index: 3; 
+}  
+
+.td {  
+position: absolute;   
+top: 40px;  
+left: 110px;   
+z-index: 5; 
+}  
+
+.gradient { 
+  background-image: url('../img/gradient.jpg');  
+  background-repeat: repeat-x;  
+  background-color: gray; 
+} 
