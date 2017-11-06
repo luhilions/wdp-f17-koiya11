@@ -36,18 +36,22 @@
   background-image: url('images/texture.jpg');   
   background-color: gray; 
  }    
- a:link { 
-  color: blue; 
- } 
+a:link {
+ color: blue;
+ font-weight: bold;
+} 
  a:visited { 
   color: green; 
+  font-weight: bold;
  }     
  a:hover { 
   color: orange; 
   text-decoration: none; 
+  font-weight: bold;
  }  
  /*The underline will display when hovering */ 
  a:active {
   color: red; 
+  font-weight: bold;
  } 
 
