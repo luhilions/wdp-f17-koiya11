@@ -46,3 +46,9 @@ Project Title: Project15: Fonts
 
 Date:10/31<br/>
 Project Title: Project16: Validation
+
+Date:11/08<br/>
+Project Title: Project 17: Site Organization
+
+Date:11/08<br/>
+Project Title: Project 18: Positioning
