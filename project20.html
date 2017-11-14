@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Form</title>
+</head>
+<body>
+
+<form method="post" class="feedback"> 
+<fieldset>
+ <legend>Give Us Your Feedback</legend>
+ Full name:
+ <input type="text" size="20" name="fullname"/> <br/>
+ 
+ Year:<br/>
+ <input type="radio" name="year" value="freshman">Freshman<br/>
+ <input type="radio" name="year" value="sophomore">Sophomore<br/>
+ <input type="radio" name="year" value="junior">Junior<br/>
+ <input type="radio" name="year" value="senior">Senior<br/>
+ 
+ Activities:<br/>
+ <input type="checkbox" name="activities" value="sports"/>Sports<br/>
+ <input type="checkbox" name="activities" value="music"/>Music<br/>
+ <input type="checkbox" name="activities" value="theater"/>Theater<br/>
+ <input type="checkbox" name="activities" value="other"/>Other<br/>
+ 
+ Quarter:<br/>
+ <select name="quarter">
+ <option value="spring">Spring</option> 
+ <option value="summer">Summer</option>
+ <option value="fall" selected="selected">Fall</option>
+ <option value="winter">Winter</option>
+ </select><br/>
+ 
+ Comments:<br /> 
+ <textarea name="comments" rows="8" cols="30"> Enter your feedback here.
+ </textarea><br />
+ 
+ <input type="submit" value="All Done!" /> 
+</fieldset>
+</form>
+
+</body>
+</html>
