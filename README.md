@@ -52,3 +52,9 @@ Project Title: Project 17: Site Organization
 
 Date:11/08<br/>
 Project Title: Project 18: Positioning
+
+Date:11/18<br/>
+Project Title: Project 19: Video
+
+Date:11/18<br/>
+Project Title: Project 20: Web Form
